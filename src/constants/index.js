@@ -1,18 +1,16 @@
-import {
-  mobile,
-  backend,
-  creator,
-  web,
-  barrsoft,
-  importainer,
-  minisemi,
-  minisemilogo,
-  lavaweb, 
-  web1,
-  zurbaran,
-  adidas,
-  adriana
-} from "../assets";
+import backend from "../assets/backend.png";
+import creator from "../assets/creator.png";
+import mobile from "../assets/mobile.png";
+import web from "../assets/web.png";
+import barrsoft from "../assets/Barrsoft.png";
+import importainer from "../assets/importainer.png";
+import lavaweb from "../assets/lavaweb.png";
+import adidas from "../assets/adidas.png";
+import zurbaran from "../assets/zurbaran.png";
+import web1 from "../assets/web1.png";
+import adriana from "../assets/adriana.jpg";
+import minisemi from "../assets/minisemi.webp";
+import minisemilogo from "../assets/minisemilogo.webp";
 
 export const navLinks = [
   {
