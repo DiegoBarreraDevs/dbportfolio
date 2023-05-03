@@ -1,15 +1,11 @@
-{
-  "homepage": "http://diegobarreradevs.github.io/diego-portfolio",
-  "name": "3d-portfolio",
+{  "name": "3d-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
