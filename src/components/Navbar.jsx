@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import logo from '../../public/logo.png';
-import close from '../../public/close.svg';
-import menu from '../../public/menu.svg';
+import logo from '../logo.png';
+import close from '../close.svg';
+import menu from '../menu.svg';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -55,7 +55,7 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } bg-[#000000d2] justify-center items-center absolute top-20 right-0 min-w-[100%] h-[350px] z-10 rounded-xl transition-all`}
+            } bg-[#000000d2] justify-center items-center absolute top-20 right-0 min-w-[100%] h-[350px] z-10 rounded-xl transition`}
           >
             <ul className="list-none flex text-center flex-col gap-10">
               {navLinks.map((link) => (

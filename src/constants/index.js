@@ -1,7 +1,7 @@
-import backend from "../../public/backend.png";
-import creator from "../../public/creator.png";
-import mobile from "../../public/mobile.png";
-import web from "../../public/web.png";
+import backend from "../backend.png";
+import creator from "../creator.png";
+import mobile from "../mobile.png";
+import web from "../web.png";
 
 export const navLinks = [
   {
