@@ -3,9 +3,6 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import logo from '../logo.png';
-import close from '../close.svg';
-import menu from '../menu.svg';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -24,7 +21,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className=" h-[60px] -mb-[5px] object-contain" />
+          <img src='https://firebasestorage.googleapis.com/v0/b/portfolio-86168.appspot.com/o/logo.png?alt=media&token=01847798-f9fe-4262-906f-178d7b57ad37' alt="logo" className=" h-[60px] -mb-[5px] object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Diego &nbsp;
             <span className="sm:block hidden">| JS Developer</span>
@@ -46,7 +43,7 @@ const Navbar = () => {
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
-            src={toggle ? close : menu}
+            src={toggle ? 'https://firebasestorage.googleapis.com/v0/b/portfolio-86168.appspot.com/o/close.svg?alt=media&token=c69dab1b-1a32-4b74-b51c-e13c9b6bf9e9' : 'https://firebasestorage.googleapis.com/v0/b/portfolio-86168.appspot.com/o/menu.svg?alt=media&token=5d4be026-7e94-4f70-8d25-e44326346386'}
             alt="menu"
             className="w-[28px] h-[28px] object-contain cursor-pointer transition-all"
             onClick={() => setToggle(!toggle)}

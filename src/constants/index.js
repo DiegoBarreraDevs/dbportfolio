@@ -1,9 +1,4 @@
-import backend from "../backend.png";
-import creator from "../creator.png";
-import mobile from "../mobile.png";
-import web from "../web.png";
-
-export const navLinks = [
+  export const navLinks = [
   {
     id: "about",
     title: "About",
@@ -21,19 +16,19 @@ export const navLinks = [
 const services = [
   {
     title: "Web Developer",
-    icon: web,
+    icon: 'https://firebasestorage.googleapis.com/v0/b/portfolio-86168.appspot.com/o/web.png?alt=media&token=402ba263-19ae-498a-b7e5-c43e68fca765',
   },
   {
     title: "React Native Developer",
-    icon: mobile,
+    icon: 'https://firebasestorage.googleapis.com/v0/b/portfolio-86168.appspot.com/o/mobile.png?alt=media&token=8f9fc8cc-d182-4fbc-9928-53583dc5d73b',
   },
   {
     title: "A.R Developer",
-    icon: backend,
+    icon: 'https://firebasestorage.googleapis.com/v0/b/portfolio-86168.appspot.com/o/backend.png?alt=media&token=14b861f9-8d5c-455a-8255-ea1abb404f81',
   },
   {
     title: "Content Creator",
-    icon: creator,
+    icon: 'https://firebasestorage.googleapis.com/v0/b/portfolio-86168.appspot.com/o/creator.png?alt=media&token=0689eb66-55cf-4157-aa8c-10ea3ac1f68b',
   },
 ];
 
