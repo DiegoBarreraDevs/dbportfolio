@@ -1,16 +1,7 @@
-import backend from "../assets/backend.png";
-import creator from "../assets/creator.png";
-import mobile from "../assets/mobile.png";
-import web from "../assets/web.png";
-import barrsoft from "../assets/Barrsoft.png";
-import importainer from "../assets/importainer.png";
-import lavaweb from "../assets/lavaweb.png";
-import adidas from "../assets/adidas.png";
-import zurbaran from "../assets/zurbaran.png";
-import web1 from "../assets/web1.png";
-import adriana from "../assets/adriana.jpg";
-import minisemi from "../assets/minisemi.webp";
-import minisemilogo from "../assets/minisemilogo.webp";
+import backend from "../../public/backend.png";
+import creator from "../../public/creator.png";
+import mobile from "../../public/mobile.png";
+import web from "../../public/web.png";
 
 export const navLinks = [
   {
@@ -50,7 +41,7 @@ const experiences = [
   {
     title: "Full-Stack Developer",
     company_name: "Importainer S.A",
-    icon: importainer,
+    icon: 'https://live.staticflickr.com/65535/52867669371_9078c04d8a_c.jpg',
     iconBg: "#fff",
     date: "Sep 2021 - Jan 2022",
     points: [
@@ -63,7 +54,7 @@ const experiences = [
   {
     title: "Software Developer",
     company_name: "Zurbaran Art Gallery",
-    icon: zurbaran,
+    icon: 'https://live.staticflickr.com/65535/52868055615_9bb875ca99_m.jpg',
     iconBg: "#2A3A7F",
     date: "Feb 2022 - Mar 2022",
     points: [
@@ -76,8 +67,8 @@ const experiences = [
   {
     title: "Software Developer",
     company_name: "Adidas",
-    icon: adidas,
-    iconBg: "#E6DEDD",
+    icon: 'https://live.staticflickr.com/65535/52867099077_535eb67414_m.jpg',
+    iconBg: "#fff",
     date: "Jun 2022 - Jul 2022",
     points: [
       "Successfully developed high-quality software and hardware using Arduino and JavaScript to meet project requirements and achieve objectives.",
@@ -89,8 +80,8 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "LavaJet",
-    icon: minisemilogo,
-    iconBg: "#E6DEDD",
+    icon: 'https://live.staticflickr.com/65535/52868220883_8fa2b95847_b.jpg',
+    iconBg: "#fff",
     date: "May 2023",
     points: [
       "Designed and developed a highly effective landing page to significantly increase customer outreach and generate more prospects.",
@@ -108,7 +99,7 @@ const testimonials = [
     name: "Mini Semi Studio",
     designation: "CEO",
     company: "Mini Semi Studio",
-    image: minisemi,
+    image: 'https://live.staticflickr.com/65535/52868220888_551f90ee82_s.jpg',
   },
   {
     testimonial:
@@ -116,7 +107,7 @@ const testimonials = [
     name: "Adriana Carro",
     designation: "CEO",
     company: "Potencia Tu Mente",
-    image: adriana,
+    image: 'https://live.staticflickr.com/65535/52867669316_5dc3c73eba_z.jpg',
   },
   {
     testimonial:
@@ -124,7 +115,7 @@ const testimonials = [
     name: "Mini Semi Studio",
     designation: "CEO",
     company: "Mini Semi Studio",
-    image: minisemi,
+    image: 'https://live.staticflickr.com/65535/52868220888_551f90ee82_s.jpg',
   },
 ];
 
@@ -147,7 +138,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: barrsoft,
+    image: 'https://live.staticflickr.com/65535/52867669341_92c9b28c73_h.jpg',
     source_code_link: "https://github.com/DiegoBarreraDevs/BarrsoftWeb-react",
   },
   {
@@ -168,7 +159,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: lavaweb,
+    image: 'https://live.staticflickr.com/65535/52867099197_95afb8fa38_h.jpg',
     source_code_link: "https://github.com/DiegoBarreraDevs/LavaJet-React",
   },
   {
@@ -189,7 +180,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: web1,
+    image: 'https://live.staticflickr.com/65535/52867669446_e7fa78e0e0_h.jpg',
     source_code_link: "https://github.com/DiegoBarreraDevs/ImportainerWeb-react",
   },
 ];
